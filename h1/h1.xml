@@ -54,7 +54,7 @@
           diaginertia="0.00304494 0.00296885 0.00189201"/>
         <joint name="left_hip_yaw_joint" axis="0 0 1" range="-0.43 0.43"/>
         <geom class="visual" mesh="left_hip_yaw_link"/>
-        <geom size="0.06 0.035" pos="-0.067 0 0" quat="0.707123 0 0.70709 0" type="cylinder" class="collision"/>
+        <geom size="0.06 0.035" pos="-0.067 0 0" quat="0.707123 0 0.70709 0" type="capsule" class="collision"/>
         <body name="left_hip_roll_link" pos="0.039468 0 0">
           <inertial pos="-0.0058 -0.00319 -9e-05" quat="0.0438242 0.70721 -0.0729075 0.701867" mass="2.232"
             diaginertia="0.00243264 0.00225325 0.00205492"/>
@@ -89,7 +89,7 @@
           diaginertia="0.00304494 0.00296885 0.00189201"/>
         <joint name="right_hip_yaw_joint" axis="0 0 1" range="-0.43 0.43"/>
         <geom class="visual" mesh="right_hip_yaw_link"/>
-        <geom size="0.06 0.035" pos="-0.067 0 0" quat="0.707123 0 0.70709 0" type="cylinder" class="collision"/>
+        <geom size="0.06 0.035" pos="-0.067 0 0" quat="0.707123 0 0.70709 0" type="capsule" class="collision"/>
         <body name="right_hip_roll_link" pos="0.039468 0 0">
           <inertial pos="-0.0058 0.00319 -9e-05" quat="-0.0438242 0.70721 0.0729075 0.701867" mass="2.232"
             diaginertia="0.00243264 0.00225325 0.00205492"/>

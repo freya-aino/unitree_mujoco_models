@@ -101,7 +101,7 @@ class TerrainGenerator:
                euler=[0.0, 0.0, 0.0], 
                size=[0.1, 0.1],geo_type="box"):
         
-        # geo_type supports "plane", "sphere", "capsule", "ellipsoid", "cylinder", "box"
+        # geo_type supports "plane", "sphere", "capsule", "ellipsoid", "capsule", "box"
         geo = xml_et.SubElement(self.worldbody, "geom")
         geo.attrib["pos"] = list_to_str(position)
         geo.attrib["type"] = geo_type
@@ -264,8 +264,8 @@ if __name__ == "__main__":
     tg.AddBox(position=[1.5, 0.0, 0.1], euler=[0, 0, 0.0], size=[1, 1.5, 0.2])
     
     # Geometry obstacle
-    # geo_type supports "plane", "sphere", "capsule", "ellipsoid", "cylinder", "box"
-    tg.AddGeometry(position=[1.5, 0.0, 0.25], euler=[0, 0, 0.0], size=[1.0,0.5,0.5],geo_type="cylinder")
+    # geo_type supports "plane", "sphere", "capsule", "ellipsoid", "capsule", "box"
+    tg.AddGeometry(position=[1.5, 0.0, 0.25], euler=[0, 0, 0.0], size=[1.0,0.5,0.5],geo_type="capsule")
 
     # Slope
     tg.AddBox(position=[2.0, 2.0, 0.5],

@@ -48,7 +48,7 @@ size=[0.1, 0.1, 0.1] # 尺寸，长宽高
 position=[1.0, 0.0, 0.0] # 中心位置
 euler=[0.0, 0.0, 0.0] # 姿态
 size=[0.1, 0.1, 0.1] # 尺寸，部分几何体只需要用到前两个参数
-geo_type="cylinder" # 几何体类型，支持"plane", "sphere", "capsule", "ellipsoid", "cylinder", "box"
+geo_type="capsule" # 几何体类型，支持"plane", "sphere", "capsule", "ellipsoid", "capsule", "box"
 ``` 
 
 ##### 3. `AddStairs`

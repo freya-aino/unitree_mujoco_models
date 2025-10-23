@@ -42,7 +42,7 @@ Add a geometry, parameters:
 position=[1.0, 0.0, 0.0] # Center position
 euler=[0.0, 0.0, 0.0] # Orientation
 size=[0.1, 0.1, 0.1] # Size, some geometries only require the first two parameters
-geo_type="cylinder" # Geometry type, supports "plane", "sphere", "capsule", "ellipsoid", "cylinder", "box"
+geo_type="capsule" # Geometry type, supports "plane", "sphere", "capsule", "ellipsoid", "capsule", "box"
 ``` 
 ##### 3. `AddStairs`
 Add stairs, parameters:
